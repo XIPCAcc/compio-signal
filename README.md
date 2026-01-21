@@ -40,7 +40,7 @@ Maximum duration:   1083.000 us
 ```
 
 ## Linux signal with IO uring
-
+```
 ============ RESULTS ================
 Message size:       1
 Message count:      1
@@ -72,3 +72,4 @@ Total duration:     110.000 ms
 Average duration:   110.000 us
 Minimum duration:   63.000 us
 Maximum duration:   478.000 us
+```

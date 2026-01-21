@@ -6,6 +6,8 @@ Usage:
 ./run [COUNT]
 ```
 
+## Unix signal
+
 ```
 ============ RESULTS ================
 Message count:      1
@@ -35,4 +37,39 @@ Total duration:     26.000 ms
 Average duration:   26.000 us
 Minimum duration:   20.000 us
 Maximum duration:   1083.000 us
+```
+
+## Linux signal with IO uring
+```
+============ RESULTS ================
+Message size:       1
+Message count:      1
+Total duration:     0.000 ms
+Average duration:   340.000 us
+Minimum duration:   340.000 us
+Maximum duration:   340.000 us
+
+============ RESULTS ================
+Message size:       1
+Message count:      10
+Total duration:     3.000 ms
+Average duration:   315.000 us
+Minimum duration:   142.000 us
+Maximum duration:   560.000 us
+
+============ RESULTS ================
+Message size:       1
+Message count:      100
+Total duration:     4.000 ms
+Average duration:   49.000 us
+Minimum duration:   19.000 us
+Maximum duration:   502.000 us
+
+============ RESULTS ================
+Message size:       1
+Message count:      1000
+Total duration:     110.000 ms
+Average duration:   110.000 us
+Minimum duration:   63.000 us
+Maximum duration:   478.000 us
 ```
